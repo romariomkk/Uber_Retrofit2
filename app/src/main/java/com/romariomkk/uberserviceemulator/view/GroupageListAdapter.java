@@ -10,6 +10,7 @@ import android.widget.TextView;
 import com.romariomkk.uberserviceemulator.R;
 import com.romariomkk.uberserviceemulator.model.groupage.Groupage;
 
+import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -52,9 +53,9 @@ public class GroupageListAdapter extends RecyclerView.Adapter<GroupageListAdapte
             textViews.get(0).setText(String.format(context.getString(R.string.gr_Desc),
                     groupage.getGroupageDescription()));
             textViews.get(1).setText(String.format(context.getString(R.string.start_time),
-                    groupage.getExpectedPickUpTime().getStartTime()));
+                    new Date(groupage.getExpectedPickUpTime().getStartTime()).toString()));
             textViews.get(2).setText(String.format(context.getString(R.string.end_time),
-                    groupage.getExpectedPickUpTime().getEndTime()));
+                    new Date(groupage.getExpectedPickUpTime().getEndTime()).toString()));
             textViews.get(3).setText(String.format(context.getString(R.string.status),
                     groupage.getGroupageStatus()));
             textViews.get(4).setText(String.format(context.getString(R.string.delivery_commission),

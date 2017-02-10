@@ -40,7 +40,6 @@ public class GroupagesActivity extends AppCompatActivity implements ResponseView
 
         Log.d(TAG, "Credentials received from intent");
 
-        //throws NullPointerException - // TODO: 11.02.2017 TO SOLVE IT!
         presenterManager = new ResponsePresenter(this);
         if (UtilityManager.isDeviceOnline())
             presenterManager.requestGroupages(credentials);
