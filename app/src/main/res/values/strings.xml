@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">UberServiceEmulator</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="default_password">1234567</string>
+    <string name="default_login">ios@test.app</string>
+    <string name="gr_Desc">Description: %1$s</string>
+    <string name="start_time">Start Time: %1$s</string>
+    <string name="end_time">End Time: %1$s</string>
+    <string name="status">Status: %1$s</string>
+    <string name="delivery_commission">Delivery Commission: %1$s</string>
+    <string name="groupage_id">Groupage ID: %1$s</string>
+    <string name="created_at">Created at: %1$s</string>
+    <string name="updated_at">Updated at: %1$s</string>
+    <string name="operator_id">Operator ID: %1$s</string>
+    <string name="driver_reward">Driver reward: %1$s</string>
+    <string name="company_proceeds">Company Proceeds: %1$s</string>
+</resources>
